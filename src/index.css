@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F2F3F5;
+  color: #4A4A4A;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #C0C0C0; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #999; }
+
+/* Ant Design overrides */
+.ant-select-selector {
+  border-radius: 8px !important;
+}
+.ant-select-dropdown {
+  border-radius: 10px !important;
+  padding: 6px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+}
+.ant-select-item {
+  border-radius: 6px !important;
+  padding: 8px 12px !important;
+}
+.ant-tag {
+  border-radius: 6px !important;
+}
+.ant-btn {
+  border-radius: 8px !important;
+}
+.ant-empty-image {
+  margin-bottom: 16px !important;
+}
+
+/* Image preview */
+.ant-image-preview-img {
+  border-radius: 8px;
+}
