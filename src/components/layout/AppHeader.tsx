@@ -1,10 +1,16 @@
 import { useState } from 'react';
 import { QrcodeOutlined } from '@ant-design/icons';
 
+function getDeployUrl() {
+  const { hostname, port, protocol } = window.location;
+  const base = `${protocol}//${hostname}${port ? ':' + port : ''}`;
+  return base + import.meta.env.BASE_URL;
+}
+
 export default function AppHeader() {
   const [showQR, setShowQR] = useState(false);
-  const mobileUrl = `http://${window.location.hostname}:${window.location.port}`;
-  const qrSrc = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(mobileUrl)}`;
+  const deployUrl = getDeployUrl();
+  const qrSrc = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(deployUrl)}`;
 
   return (
     <header
@@ -41,10 +47,10 @@ export default function AppHeader() {
               <img
                 src={qrSrc}
                 alt="手机扫码访问"
-                style={{ width: 160, height: 160, display: 'block' }}
-                onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                style={{ width: 180, height: 180, display: 'block' }}
               />
               <p className="text-xs text-center mt-2" style={{ color: '#888' }}>扫一扫在手机上打开</p>
+              <p className="text-xs text-center" style={{ color: '#C0C0C0' }}>{deployUrl}</p>
             </div>
           )}
         </div>
