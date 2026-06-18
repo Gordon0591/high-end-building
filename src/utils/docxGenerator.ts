@@ -23,12 +23,10 @@ export async function generateAndDownloadDocx(): Promise<void> {
   const now = new Date();
   const timeStr = format(now, 'yyyy年MM月dd日 HH:mm', { locale: zhCN });
   const codeStr = `SIKA-${selectedSpace}-${format(now, 'yyyyMMddHHmm')}`;
-  const baseImgName = selectedSpace!.replace(/\s+/g, '-');
-
   // Fetch building diagrams
   const [diagram1Buf, diagram2Buf] = await Promise.all([
-    fetchImageBuffer(`${import.meta.env.BASE_URL}images/diagrams/${baseImgName}.jpg`),
-    fetchImageBuffer(`${import.meta.env.BASE_URL}images/diagrams/${baseImgName}2.jpg`),
+    fetchImageBuffer(`${import.meta.env.BASE_URL}images/diagrams/${selectedSpace}.jpg`),
+    fetchImageBuffer(`${import.meta.env.BASE_URL}images/diagrams/${selectedSpace}2.jpg`),
   ]);
 
   // Fetch product images

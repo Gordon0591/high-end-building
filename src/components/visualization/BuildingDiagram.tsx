@@ -8,8 +8,7 @@ export default function BuildingDiagram() {
   const space = selectedSpace ? getSpaceRecord(selectedSpace) : undefined;
   if (!selectedSpace) return null;
 
-  const baseName = selectedSpace.replace(/\s+/g, '-');
-  const imagePath = `${import.meta.env.BASE_URL}images/diagrams/${baseName}2.jpg`;
+  const imagePath = `${import.meta.env.BASE_URL}images/diagrams/${selectedSpace}2.jpg`;
 
   return (
     <div className="bg-white rounded-xl border overflow-hidden shadow-sm flex flex-col" style={{ borderColor: '#ECEDF0', height: '100%' }}>
