@@ -21,7 +21,7 @@ export default function ProductDetailRow({ productId }: Props) {
         <div className="flex-shrink-0 flex items-center justify-center p-5" style={{ width: 220, minHeight: 200, backgroundColor: '#FAFBFC' }}>
           <div className="rounded-lg overflow-hidden bg-white flex items-center justify-center" style={{ width: 180, height: 160 }}>
             <Image
-              src={product.imagePath}
+              src={import.meta.env.BASE_URL + product.imagePath}
               alt={product.fullName}
               fallback="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjE2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmaWxsPSIjOTk5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+5Lqn5ZOB5Zu+54mHPC90ZXh0Pjwvc3ZnPg=="
               preview={{ mask: '查看大图' }}

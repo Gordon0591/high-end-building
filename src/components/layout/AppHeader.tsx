@@ -16,7 +16,7 @@ export default function AppHeader() {
     >
       <div className="flex items-center gap-3">
         <img
-          src="/images/sika logo.JPG"
+          src={import.meta.env.BASE_URL + 'images/sika logo.JPG'}
           alt="SIKA"
           className="h-10 w-auto rounded object-contain"
           style={{ maxHeight: 40 }}

@@ -125,7 +125,7 @@ const productRecords = products.filter(p => p.product_id && !String(p.product_id
     processId: esc(p.process_id),
     label: esc(p.label),
     fullName: esc(p['Full name'] ?? p.full_name ?? ''),
-    imagePath: `/images/products/${esc(fixImagePath(p.image_filename))}`,
+    imagePath: `images/products/${esc(fixImagePath(p.image_filename))}`,
     description: esc(p.description),
     advantages: advs,
     certifications: certs,

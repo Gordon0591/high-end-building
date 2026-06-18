@@ -77,7 +77,7 @@ export const PROCESS_PRODUCT_MAP: ProcessProductMapping[] = [
   { processId: ConstructionProcess.joints_treatment, productId: 'SikaTape-F' },
   { processId: ConstructionProcess.levelling, productId: 'SikaEmaco 5100N' },
   { processId: ConstructionProcess.concrete_protection, productId: 'SikaFerrogard-903' },
-  { processId: ConstructionProcess.concrete_protection, productId: 'SikaTop-501 Seal' },
+  { processId: ConstructionProcess.waterproofing1, productId: 'SikaTop-501 Seal' },
   { processId: ConstructionProcess.primer, productId: 'Sikafloor-P 658' },
   { processId: ConstructionProcess.waterproofing1, productId: 'SikaTop 540 Seal' },
   { processId: ConstructionProcess.waterproofing1, productId: 'Sika Thoroseal® Plus/583' },

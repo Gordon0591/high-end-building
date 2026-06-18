@@ -8,7 +8,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: '西卡标准基面前处理-铲除，清理，喷砂，打磨',
     fullName: '',
-    imagePath: '/images/products/',
+    imagePath: 'images/products/',
     description: '',
     advantages: [],
     certifications: [],
@@ -23,7 +23,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaEmaco® S188 水泥基高强修补砂浆',
     fullName: 'SikaEmaco® S188 水泥基高强修补砂浆',
-    imagePath: '/images/products/SikaEmaco S188.png',
+    imagePath: 'images/products/SikaEmaco S188.png',
     description: '一种具有触变性、纤维增强、收缩补偿功能的单组分水泥修补砂浆；全系列结构修补砂浆（批量修补，浇筑和喷涂应用）',
     advantages: [
       '结构致密，可以降低腐蚀介质的渗透侵入',
@@ -46,7 +46,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaEmaco® N5100 水泥基薄层修补砂浆',
     fullName: 'SikaEmaco® N5100 水泥基薄层修补砂浆',
-    imagePath: '/images/products/SikaEmaco N5100.jpg',
+    imagePath: 'images/products/SikaEmaco N5100.jpg',
     description: '一种聚合物改性的即用型薄层修补砂浆。用于修补混凝土表面的各种瑕疵和缺陷和用于防水涂料和防腐涂料的基底找平',
     advantages: [
       '只需加水搅拌即可施工',
@@ -67,7 +67,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaAnchorFix 3010CN 植筋锚固胶',
     fullName: 'SikaAnchorFix 3010CN 植筋锚固胶',
-    imagePath: '/images/products/SikaAnchorFix 3010CN.jpg',
+    imagePath: 'images/products/SikaAnchorFix 3010CN.jpg',
     description: '一种触变型、双组分、无溶剂的高性能环氧结构胶。用于在各种混凝土、粘土砖、天然石材和木材上锚固螺杆、钢筋或其他杆件。',
     advantages: [
       '优秀的粘结强度',
@@ -92,7 +92,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaWrap-300C CN 加固用碳纤维布',
     fullName: 'SikaWrap-300C CN 加固用碳纤维布',
-    imagePath: '/images/products/SikaWrap-300C CN.jpg',
+    imagePath: 'images/products/SikaWrap-300C CN.jpg',
     description: '一种单向编织的、高强度碳纤维布，用于构件的结构加固，可以采用干法或湿法施工工艺。',
     advantages: [
       '适用于各种不同基面和几何形状（梁、柱、板、墙、杆等）',
@@ -114,7 +114,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaCarboDur-S 1014N  加固用碳板',
     fullName: 'SikaCarboDur-S 1014N  加固用碳板',
-    imagePath: '/images/products/SikaCarboDur-S 1014N.jpg',
+    imagePath: 'images/products/SikaCarboDur-S 1014N.jpg',
     description: '压挤成型的碳纤维复合板材，用于结构构件的加固。',
     advantages: [
       '特殊制造工艺，确保板材直线度',
@@ -137,7 +137,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikadur®-31 STP 环氧结构粘结胶',
     fullName: 'Sikadur®-31 STP 环氧结构粘结胶',
-    imagePath: '/images/products/Sikadur-31CFN.png',
+    imagePath: 'images/products/Sikadur-31CFN.png',
     description: '一种双组分、触变型、无溶剂环氧结构粘结胶，适用于粘钢加固施工。',
     advantages: [
       '早期和最终机械强度高',
@@ -159,7 +159,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikadur®-52 STP 压注型粘钢结构胶',
     fullName: 'Sikadur®-52 STP 压注型粘钢结构胶',
-    imagePath: '/images/products/Sikadur-52 STP.jpg',
+    imagePath: 'images/products/Sikadur-52 STP.jpg',
     description: '一种双组分、无溶剂、低粘度环氧树脂结构胶,适用于以混凝土为基材的压注型粘钢加固，及格构式和封闭式湿法外包型钢加固。',
     advantages: [
       '粘度低,无溶剂',
@@ -182,7 +182,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikadur®-52CN低粘度环氧树脂注浆材料',
     fullName: 'Sikadur®-52CN低粘度环氧树脂注浆材料',
-    imagePath: '/images/products/Sikdur-52 CN.jpg',
+    imagePath: 'images/products/Sikdur-52 CN.jpg',
     description: '一种低粘度环氧树脂，用于重力或压力注入混凝土、砌体、木材结构的裂缝，封闭室内和室外底板，以防止水、氯化物和轻微化学侵蚀，并提高耐磨性。',
     advantages: [
       '具有韧性的裂缝封堵浆料',
@@ -203,7 +203,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaMonotop-102 CN 快速止水砂浆',
     fullName: 'SikaMonotop-102 CN 快速止水砂浆',
-    imagePath: '/images/products/SikaMonotop-102 CN.jpg',
+    imagePath: 'images/products/SikaMonotop-102 CN.jpg',
     description: '一种快速反应的水泥砂浆，专为快速封堵混凝土或砌体基层中的孔洞渗漏水而设计。',
     advantages: [
       '快速堵漏，瞬间止水',
@@ -225,7 +225,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaInject® -101AP 柔性聚氨酯注浆防水树脂',
     fullName: 'SikaInject® -101AP 柔性聚氨酯注浆防水树脂',
-    imagePath: '/images/products/Sikainject-101AP.png',
+    imagePath: 'images/products/Sikainject-101AP.png',
     description: '一种双组分，聚氨酯，低粘度，快速发泡，水反应性注射树脂。固化后形成致密的软泡沫。',
     advantages: [
       '快速反应发泡材料，用于临时防水',
@@ -247,7 +247,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaWaterbar®- 125 FB --杂化型柔性止水带',
     fullName: 'SikaWaterbar®- 125 FB --杂化型止水带',
-    imagePath: '/images/products/SikaWaterBar FB125.jpg',
+    imagePath: 'images/products/SikaWaterBar FB125.jpg',
     description: '一种杂化型止水带，表面粗糙，采用柔性聚烯烃（FPO）制成,提供了一个完全粘合、耐用的防水密封，防止任何侧向水流过。',
     advantages: [
       '一种完全粘结的柔性 TPO 防水带，基于 A+ 技术改性专利表面',
@@ -265,7 +265,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikadur®Combiflex SG-高性能接缝、裂缝密封胶带',
     fullName: 'Sikadur®Combiflex SG-高性能接缝、裂缝密封胶带',
-    imagePath: '/images/products/SikadurCombiflex-SG.jpg',
+    imagePath: 'images/products/SikadurCombiflex-SG.jpg',
     description: '一种柔性聚烯烃(TPO)防水卷材，粘结性能优异。此产品是 SikadurCombiflex® SG 系统的一部分。',
     advantages: [
       '有SG和M两种，M主要用于伸缩缝，中间有红色的隔离膜，适合伸缩缝施工',
@@ -284,7 +284,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaFerroGard®-903+ --钢筋阻锈剂',
     fullName: 'SikaFerroGard®-903+ --钢筋阻锈剂',
-    imagePath: '/images/products/SikaFerrogard 903+.png',
+    imagePath: 'images/products/SikaFerrogard 903+.png',
     description: 'SikaFerroGard® 903+是一种含有阻锈成分的产品，施工在混凝土表面并能渗透到混凝土内部起到保护混凝土中钢筋的作用。',
     advantages: [
       '褪色配方设计能更好的控制施工质量',
@@ -307,7 +307,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaTop-501 Seal 水泥基渗透结晶防水涂料',
     fullName: 'SikaTop-501 Seal 水泥基渗透结晶防水涂料',
-    imagePath: '/images/products/SikaTop-501 Seal.png',
+    imagePath: 'images/products/SikaTop-501 Seal.png',
     description: '单组分水泥基渗透结晶\n防水涂料。SikaTop®-501 Seal 中的活性化学\n物质，能渗透进混凝土内，与水泥水化产物\n反应，产生不溶性结晶。该结晶可以堵塞毛\n细孔，填充非结构性的细微裂缝，使混凝土\n形成一道密实度极高且持久的刚性防水屏\n障。',
     advantages: [
       '优异的抗渗能力',
@@ -330,7 +330,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaTop® 540 Seal聚合物改性防水涂料',
     fullName: 'SikaTop® 540 Seal聚合物改性防水涂料',
-    imagePath: '/images/products/SikaTop 540 Seal.png',
+    imagePath: 'images/products/SikaTop 540 Seal.png',
     description: '一种含聚合物的高性能水泥基防水材料，用于游泳池、水箱、地下室等场所的防水。',
     advantages: [
       '施工简单',
@@ -352,7 +352,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sika Thoroseal® Plus/583 聚合物改性防水砂浆',
     fullName: 'Sika Thoroseal® Plus/583 聚合物改性防水砂浆',
-    imagePath: '/images/products/Sika Thoroseal(R)Plus:583.png',
+    imagePath: 'images/products/Sika Thoroseal(R)Plus:583.png',
     description: '可以用于混凝土、水泥砂浆、砖墙为基层的防水涂料。它既可用于迎水面防水，又可用于背水面防水。',
     advantages: [
       '施工简单、快速',
@@ -371,9 +371,9 @@ export const PRODUCTS: ProductRecord[] = [
     id: 'SikaTape-F',
     seriesId: 'sikatape',
     processId: '',
-    label: 'Sika® SealTape F --裂缝桥接防水密封胶带',
-    fullName: 'Sika® SealTape F --裂缝桥接防水密封胶带',
-    imagePath: '/images/products/SikaTape-F.jpg',
+    label: 'Sika® SealTape F --阴阳角和管根防水处理密封胶带',
+    fullName: 'Sika® SealTape F --阴阳角和管根防水处理密封胶带',
+    imagePath: 'images/products/SikaTape-F.jpg',
     description: '一种弹性系统组件，与 Sika® 防水产品配合使用。它能降低墙角、楼板与墙壁连接处、管道入口等潜在开裂位置的渗漏风险。',
     advantages: [
       '高弹性,断裂强度高',
@@ -393,7 +393,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaThermal-51/52-双组份喷涂型硬质发泡聚氨酯',
     fullName: 'SikaThermal-51/52-双组份喷涂型硬质发泡聚氨酯',
-    imagePath: '/images/products/SikaThermal-51/52.jpg',
+    imagePath: 'images/products/SikaThermal-51/52.jpg',
     description: '双组分可喷涂型硬质发泡聚氨酯保温材料，使用HFC-245fa 环保发泡剂，其臭氧消耗潜能值（ODP）为 0。',
     advantages: [
       '臭氧消耗潜能值（ODP）为 0',
@@ -418,7 +418,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikafloor® P 658-双组分环氧底涂',
     fullName: 'Sikafloor® P 658-双组分环氧底涂',
-    imagePath: '/images/products/Sikafloor P658.png',
+    imagePath: 'images/products/Sikafloor P658.png',
     description: '一种无溶剂、低粘度、双组分环氧树脂底涂。',
     advantages: [
       '低粘度，能够有效封闭孔隙，保证面层质\n量',
@@ -440,7 +440,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikalastic® M 860--滚涂型聚氨酯高弹防水涂料',
     fullName: 'Sikalastic® M 860--滚涂型聚氨酯高弹防水涂料',
-    imagePath: '/images/products/Sikalastic-860.png',
+    imagePath: 'images/products/Sikalastic-860.png',
     description: '一种无溶剂、双组份、高\n性能聚氨酯防水涂膜。固化后形成一层经久\n耐用、无缝一体的防水膜，',
     advantages: [
       '无缝涂膜,与基层满粘',
@@ -462,7 +462,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikalastic®-692R--单组份聚氨酯防水涂料',
     fullName: 'Sikalastic®-692R--单组份聚氨酯防水涂料',
-    imagePath: '/images/products/Sikalastic-692R.png',
+    imagePath: 'images/products/Sikalastic-692R.png',
     description: '一种单组份、冷施工、湿气式固化防水涂料。固化后形成一层经久耐用、无缝一体的防水涂膜，适用于暴露式屋面与倒置式露台/阳台防水。',
     advantages: [
       '基于湿气式固化技术的无缝一体防水涂料',
@@ -484,7 +484,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikalastic® -685--外露型高弹耐水防水涂料',
     fullName: 'Sikalastic® -685--外露型高弹耐水防水涂料',
-    imagePath: '/images/products/Sikalastic-685.png',
+    imagePath: 'images/products/Sikalastic-685.png',
     description: '单组分外露型高弹耐水防水涂料，具有优异的耐化学性，耐紫外，高弹等特性。',
     advantages: [
       '无缝一体，降低渗漏风险',
@@ -508,7 +508,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikalastic® 670 TC--单组份聚氨酯抗UV 保护面漆',
     fullName: 'Sikalastic® 670 TC--单组份聚氨酯抗UV 保护面漆',
-    imagePath: '/images/products/Sikalastic-670TC.jpg',
+    imagePath: 'images/products/Sikalastic-670TC.jpg',
     description: '一种溶剂型、单组分潮气固化，抗UV 和耐候的彩色保护面漆。它是一种优质脂肪族聚氨酯预聚物涂层。',
     advantages: [
       '卓越的抗紫外线和耐候性能',
@@ -531,7 +531,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikafelt®- 加强网格布',
     fullName: '',
-    imagePath: '/images/products/',
+    imagePath: 'images/products/',
     description: '',
     advantages: [],
     certifications: [],
@@ -546,7 +546,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikasil®-190--单组份硅酮耐候密封胶',
     fullName: 'Sikasil®-190--单组份硅酮耐候密封胶',
-    imagePath: '/images/products/Sikasil-190.jpg',
+    imagePath: 'images/products/Sikasil-190.jpg',
     description: '单组分中性硅酮耐候密封胶，湿气固化，不含烷烃类增塑剂，具有优异的耐候性。',
     advantages: [
       '与多数的基材粘接良好',
@@ -569,7 +569,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaBoom ® S  --单组份聚氨酯发泡（门窗）',
     fullName: 'SikaBoom ® S  --单组份聚氨酯发泡（门窗）',
-    imagePath: '/images/products/SikaBoom 400.jpg',
+    imagePath: 'images/products/SikaBoom 400.jpg',
     description: '一种湿气固化膨胀的聚氨酯胶，可以用作固定和绝缘。',
     advantages: [
       '被倒置时可以使用',
@@ -592,7 +592,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaSeal®-429 --室外用防水透汽膜',
     fullName: 'SikaSeal®-429 --室外用防水透汽膜',
-    imagePath: '/images/products/SikaSeal-429.jpg',
+    imagePath: 'images/products/SikaSeal-429.jpg',
     description: '一款自带压敏背胶的弹性防水透汽膜，用于窗户的快速和便捷安装。水汽通过开放的膜结构迅速传输至冷侧。',
     advantages: [
       '弹性膜，三维立体安装的理想方案',
@@ -614,7 +614,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'SikaSeal®-428 --室内用防水隔汽膜',
     fullName: 'SikaSeal®-428 --室内用防水隔汽膜',
-    imagePath: '/images/products/SikaSeal-428.jpg',
+    imagePath: 'images/products/SikaSeal-428.jpg',
     description: '一款自带压敏背胶的弹性防水隔汽膜，用于窗户的快速和便捷安装。水汽被封闭的膜结构隔离在热侧。',
     advantages: [
       '弹性膜，三维立体安装的理想方案',
@@ -637,7 +637,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikasil®-193 -- 单组份醇型硅酮防霉密封胶',
     fullName: 'Sikasil®-193 -- 单组份醇型硅酮防霉密封胶',
-    imagePath: '/images/products/Sikasil-193.jpg',
+    imagePath: 'images/products/Sikasil-193.jpg',
     description: '单组份湿气固化的中性醇型固化防霉硅酮密封胶，可广泛应用于多种场所，包括医院，实验室，中央厨房，食品厂，冷藏室，保温车厢和卫生间等接缝的密封。',
     advantages: [
       '100% 有机硅，低体积收缩率，永久的弹性和耐候性能',
@@ -658,7 +658,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sika®Bond-161--单组份高强度硅烷改性木地板粘合剂',
     fullName: 'Sika®Bond-161--单组份高强度硅烷改性木地板粘合剂',
-    imagePath: '/images/products/Sikabond-161.jpg',
+    imagePath: 'images/products/Sikabond-161.jpg',
     description: '单组份湿气固化的硅烷改性STP 木地板粘合剂，产品为无溶剂、快速固化的高强度弹性胶粘剂。',
     advantages: [
       '环保，无甲醛',
@@ -682,7 +682,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sika®Bond-180--单组份硅烷改性粘接胶 ',
     fullName: 'Sika®Bond-180--单组份硅烷改性粘接胶 ',
-    imagePath: '/images/products/Sikabond-180.jpg',
+    imagePath: 'images/products/Sikabond-180.jpg',
     description: '单组分，无溶剂的硅烷封端密封粘接胶。该产品湿气固化，低气味，兼具弹性和强度，与多数基材粘接性能优异。',
     advantages: [
       '低气味，不含甲苯，甲醛等有害物质',
@@ -705,7 +705,7 @@ export const PRODUCTS: ProductRecord[] = [
     processId: '',
     label: 'Sikafloor-2460 环氧自流平系统（车库）',
     fullName: 'Sikafloor-2460 环氧自流平系统（车库）',
-    imagePath: '/images/products/sikafloor-2460.jpg',
+    imagePath: 'images/products/sikafloor-2460.jpg',
     description: '环氧自流平地坪系统，提供无缝、平整的表面',
     advantages: [
       '自流平效果好表面无缝平整',

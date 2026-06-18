@@ -15,7 +15,7 @@ export default function SolutionHeader() {
   const codeStr = `SIKA-${selectedSpace ?? 'XX'}-${format(now, 'yyyyMMddHHmm')}`;
 
   const baseName = selectedSpace?.replace(/\s+/g, '-') ?? '';
-  const diagram1Path = `/images/diagrams/${baseName}.jpg`;
+  const diagram1Path = `${import.meta.env.BASE_URL}images/diagrams/${baseName}.jpg`;
 
   return (
     <div className="mb-5 bg-white rounded-xl border p-5 shadow-sm" style={{ borderColor: '#ECEDF0' }}>

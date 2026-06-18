@@ -27,8 +27,8 @@ export async function generateAndDownloadDocx(): Promise<void> {
 
   // Fetch building diagrams
   const [diagram1Buf, diagram2Buf] = await Promise.all([
-    fetchImageBuffer(`/images/diagrams/${baseImgName}.jpg`),
-    fetchImageBuffer(`/images/diagrams/${baseImgName}2.jpg`),
+    fetchImageBuffer(`${import.meta.env.BASE_URL}images/diagrams/${baseImgName}.jpg`),
+    fetchImageBuffer(`${import.meta.env.BASE_URL}images/diagrams/${baseImgName}2.jpg`),
   ]);
 
   // Fetch product images
@@ -36,7 +36,7 @@ export async function generateAndDownloadDocx(): Promise<void> {
   await Promise.all(
     [...new Set(confirmedProducts)].map(async (pid) => {
       const p = getProductRecord(pid);
-      if (p) productImages.set(pid, await fetchImageBuffer(p.imagePath));
+      if (p) productImages.set(pid, await fetchImageBuffer(import.meta.env.BASE_URL + p.imagePath));
     })
   );
 
